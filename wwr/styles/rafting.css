@@ -1,0 +1,23 @@
+:root{
+     background-color: #EEE1B3 ;  
+    
+     p{
+        font-family: "Sriracha", serif;
+        color:#0A1045;
+    }
+    
+    h1{
+        font-family: "Fugaz One", serif;
+        color: #0E0F19 ;
+    }
+    .hyper a{
+        text-decoration: none;
+    }
+    .hero img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
