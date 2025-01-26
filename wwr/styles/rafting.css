@@ -1,23 +1,52 @@
 :root{
      background-color: #EEE1B3 ;  
-    
-     p{
-        font-family: "Sriracha", serif;
-        color:#0A1045;
-    }
-    
-    h1{
-        font-family: "Fugaz One", serif;
-        color: #0E0F19 ;
-    }
-    .hyper a{
-        text-decoration: none;
-    }
-    .hero img{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+
 }
+
+p{
+    font-family: "Sriracha", serif;
+    color:#0A1045;
+}
+
+.hyper a{
+    text-decoration: none;
+}
+
+.hero{
+	 position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-family: "Fugaz One", serif;
+    color: #0A1045 ;
+    font-size: 3rem;
+    background-color: #EEE1B3;
+}
+
+article img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    
+    }
+    
+article{
+    position: absolute;
+    padding: 0.65rem;
+    box-shadow: 0 0 30px #111;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0/0.2)/*1*/;
+    text-align: center;
+}
+
 
 
