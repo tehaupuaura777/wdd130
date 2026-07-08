@@ -22,5 +22,35 @@ img {
 }
 
 p {
+    padding: 0;
+}
+
+main {
+    max-width: 820px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside {
+    width: 200px;
+    margin: 0;
+    border: 1px solid red;
     padding: 10px;
+    background-color: navy;
+    color: aliceblue;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 2px solid black;
+    text-align: center;
 }
