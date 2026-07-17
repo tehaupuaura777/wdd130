@@ -1,3 +1,13 @@
+:root {
+    --background-color: darkblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -19,6 +29,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -31,21 +42,32 @@ main {
 
 aside {
     width: 200px;
-    margin: 0;
-    border: 1px solid red;
-    padding: 10px;
-    background-color: navy;
-    color: aliceblue;
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
+}
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
 }
 
 footer {
     margin-top: 10px;
     border-top: 2px solid black;
     text-align: center;
+}
+
+/*class selector*/
+.box {
+    margin: 1rem;
+    border: 1px solid red;
+    padding: 1rem;
+    background-color: lightgrey;
+    color: blue;
 }
