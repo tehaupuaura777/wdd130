@@ -40,6 +40,12 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+
+}
+
+.socialmedia img {
+    width: 100px;
+    height: auto;
 }
 
 .hero {
