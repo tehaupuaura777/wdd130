@@ -40,7 +40,6 @@ article {
 
 .socialmedia a {
     text-decoration: none;
-
 }
 
 .socialmedia img {
@@ -83,4 +82,77 @@ h1 {
     border: 1px solid black;
     padding: 5px;
 
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+header nav {
+    border: 3px solid black;
+    text-decoration: none;
+    background-color: var(--accent1-color);
+
+}
+
+header img {
+    border: 1px solid black;
+    max-width: 150px;
+    justify-self: center;
+}
+
+.history {
+    display: grid;
+    grid-template: repeat(3, 1fr);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    justify-items: center;
+
+}
+
+.history h2 {
+    grid-column: span 3;
+    justify-self: center;
+    padding: 10px;
+}
+
+.history img {
+    max-width: 250px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    justify-items: center;
+}
+
+.adventure h2 {
+    grid-column: span 5;
+    justify-self: center;
+}
+
+.adventure img {
+    max-width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
