@@ -79,7 +79,7 @@ h1 {
 .hero article img {
     float: right;
     width: 150px;
-    border: 1px solid black;
+    border: 1px solid var(--accent2-color);
     padding: 5px;
 
 }
@@ -101,14 +101,14 @@ header ul {
 }
 
 header nav {
-    border: 3px solid black;
+    border: 3px solid var(--accent2-color);
     text-decoration: none;
     background-color: var(--accent1-color);
 
 }
 
 header img {
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     max-width: 150px;
     justify-self: center;
 }
@@ -131,7 +131,7 @@ header img {
 .history img {
     max-width: 250px;
     padding: 5px;
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
 }
 
 .adventure {
