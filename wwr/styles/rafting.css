@@ -1,7 +1,7 @@
 :root {
     --primary-color: #0F172A;
     --secondary-color: #64748B;
-    --accent1-color: #3B82F6;
+    --accent1-color: #310204;
     --accent2-color: #F8FAFC;
     --heading-font: serif;
     --body-font: sans-serif;
@@ -115,7 +115,7 @@ header img {
 
 .history {
     display: grid;
-    grid-template: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     justify-items: center;
